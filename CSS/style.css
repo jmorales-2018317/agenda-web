@@ -1,0 +1,270 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cerrarSesion:hover{
+    color: rgb(202, 53, 53);
+}
+
+body{
+    background-image: url("../img/Fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.datosNuevo{
+    border-radius: 30px;
+    box-shadow: 0px 13px 22px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 13px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 22px 0px rgba(0,0,0,0.75);
+}
+
+.nuevoUsuario form{
+    margin-left: 35px;
+}
+
+.nuevoUsuario img{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    padding: 5vh;
+    height: 95%;   
+}
+
+.nuevoUsuario h1{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Fredoka One', cursive;
+    font-size: 10vh;
+}
+
+.inp{
+    height: 50px;
+    width: 85%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.64);
+}
+
+.button{
+    display: flex;
+    height: 6vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 50px;
+    width: 35%;
+    border-radius: 30px;
+    font-weight: 600;
+    background: rgb(94, 56, 163);
+    color: white;
+}
+
+.btn1:hover{
+    background: rgb(52, 27, 97);
+}
+
+.btn1:active{
+    background: rgb(84, 57, 134);
+}
+
+/* ---------- PERFIL ---------- */  
+
+.perfil{
+    text-align: center;
+}
+
+.perfil img{
+    padding: 1vh;
+    width: 30%;
+}
+
+.perfilUsuario p{
+    margin: 0;
+    margin-bottom: -40px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 10vh;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.botonPerfil{
+    display: flex;
+    height: 6vh;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.perfilUsuario a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60%;
+    border-radius: 30px;
+    font-family: 'Fredoka One', cursive;
+    background: rgb(94, 56, 163);
+    
+}
+
+.perfilUsuario a:hover{
+    background: rgb(52, 27, 97);
+}
+
+.perfilUsuario a:active{
+    background: rgb(84, 57, 134);
+}
+
+/* Detalle Contacto */
+
+.detalleContacto{
+    padding: 3vh;
+    margin-top: 5vh;
+}
+
+.detalleContacto form{
+    margin-left: 35px;
+}
+
+.detalleContacto img{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;   
+}
+
+.detalleContacto h1{
+    text-align: center;
+    margin-top: 5vh;
+    font-family: 'Fredoka One', cursive;
+    font-size: 10vh;
+}
+
+.detalleContactoCard{
+    padding: 6px;
+}
+
+.detalleContacto input{
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-style:solid;
+    
+    border-color: rgb(79, 0, 124);
+    border-bottom-width: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.detalleContacto input:hover{
+    border-bottom-width: 4px;
+    transition: 0.12s;
+}
+
+.buscandoUsuario{
+    width: 100%;
+    height: 120%;
+}
+
+/* TODO LIST*/
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulo h1 {
+    font-weight: 600;
+    font-size: 9vh;
+    font-family: 'Fredoka One', cursive;    
+}
+
+.toDoList {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS FORMULARIO */
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 50px;
+    width: 35%;
+    border-radius: 30px;
+    font-weight: 600;
+    background: rgb(94, 56, 163);
+    color: white;
+}
+
+.btn1:hover{
+    background: rgb(52, 27, 97);
+}
+
+.btn1:active{
+    background: rgb(84, 57, 134);
+}
+
+
+.toDoList .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+
+.toDoList .div-formulario form input,
+.toDoList .div-formulario form button {
+    width: 60%;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    color:  green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}

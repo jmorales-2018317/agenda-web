@@ -1,0 +1,78 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.cerrarSesion:hover{
+    color: rgb(202, 53, 53);
+}
+
+.row{
+    background: rgb(172, 128, 255);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.login h1{
+    margin-top: 10vh;
+    font-family: 'Fredoka One', cursive;
+    font-size: 10vh;
+}
+
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: -1px -1px 29px 0px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -1px -1px 29px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: -1px -1px 29px 0px rgba(0,0,0,0.59);
+}
+
+.button{
+    display: flex;
+    height: 6vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 50px;
+    width: 35%;
+    border-radius: 30px;
+    border-color: black;
+    font-weight: 600;
+    background: rgb(94, 56, 163);
+    color: white;
+}
+
+.btn1:hover{
+    background: rgb(52, 27, 97);
+}
+
+.btn1:active{
+    background: rgb(84, 57, 134);
+}
+
+section{
+    height: 100vh;
+}

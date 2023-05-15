@@ -1,0 +1,77 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/Fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cerrarSesion:hover{
+    color: rgb(202, 53, 53);
+}
+
+.contactos{
+
+    padding: 70px;
+}
+
+.tarjeta{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    color:rgb(60, 39, 97);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px){
+    p{
+        font-size: 30px;
+    }
+}
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 600;
+}
+
+img:hover{
+    opacity: 95%;
+}
+
+.btn{
+    border-color: rgb(45, 27, 78);
+    border-radius: 30px;
+    background: rgb(94, 56, 163);
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background: rgb(52, 27, 97);
+    border-color: rgb(45, 27, 78);;
+}
+
+.nuevoUsuario img{
+    margin-left: 2.5vh;
+    width: 80%;
+    height: 38vh;
+}
+
+.col-12 span{
+    height: 100px;
+}
+
+.col-4{
+    min-width: 200px;
+}
